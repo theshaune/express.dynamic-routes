@@ -1,6 +1,6 @@
 /* Packages */
 var express = require('express')
-  , router = express.Router()
+  , router = express.Router();
 
 /* Local Variables */ 
 var categories = '(store|products)';
