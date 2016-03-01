@@ -1,5 +1,6 @@
-var categories = '(store|products);
+var categories = '(store|products)';
 
 router.get('/:category('+categories+')/:slug', getPageDetails, function(req, res, next) {
  // Do something
+ // req.param.category;
 })
